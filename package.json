@@ -1,0 +1,14 @@
+{
+    "name": "kathysflorals",
+    "version": "1.0.0",
+    "description": "Kathy's Florals has been serving the Greater Los Angeles Area for over twenty years.",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Megan Malia",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.15.3"
+    }
+}
