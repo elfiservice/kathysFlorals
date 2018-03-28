@@ -1,224 +1,244 @@
-/*font-family: 'Kristi', cursive;
+    /*font-family: 'Kristi', cursive;
 font-family: 'Shadows Into Light', cursive;
 font-family: 'Open Sans Condensed', sans-serif;
 */
-
-body,
-.navbar-fixed-top {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-h1 {
-    font-family: 'Kristi', cursive;
-    font-size: 3em;
-    float: left;
-}
-
-body {
-    font-family: 'Open Sans Condensed', sans-serif;
-    margin: 0 auto;
-    padding: 0;
-}
-
-#logo {
-    width: 7em;
-    height: auto;
-    float: left;
-    margin: 20px 0px 0px 10px;
-}
-
-#navImg {
-    display: none;
-}
-
-.banner {
-    max-width: 100%;
-}
-
-nav {
-    float: right;
-    margin-top: 2%;
-}
-
-nav li {
-    display: inline;
-}
-
-.nav>li>a {
-    width: 100%;
-    color: #fff;
-}
-
-.navbar-inverse {
-    clear: both;
-}
-
-button {
-    color: #D46A6A;
-}
-
-header nav {
-    float: right;
-    margin-top: 2%;
-}
-
-.nav {
-    padding-right: 2%;
-    float: right;
-}
-
-.navbar li a {
-    color: #000;
-    font-size: 120%;
-    text-decoration: none;
-    padding: 30px 50px;
-    text-transform: uppercase;
-}
-
-a {
-    text-decoration: none;
-    color: #000;
-}
-
-nav li:hover {
-    color: #000;
-}
-
-.navbar {
-    border-radius: 0;
-    background-color: #fff;
-}
-
-button {
-    color: #fff;
-}
-
-button.menuSelect a {
-    font-size: 300%;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-right: 0;
-}
-
-button.menuSelect,
-#menuTitle {
-    background: none;
-    color: #fff;
-    text-decoration: none;
-    float: right;
-    border-style: none;
-}
-
-ul li {
-    float: right;
-}
-
-.container {
-    width: 100%;
-}
-
-.highlight {
-    font-family: 'Open Sans Condensed', sans-serif !important;
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-60%, -30%);
-    font-size: 2.4em;
-    color: #fff;
-}
-
-h1#mainText {
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.master {
-    font-size: 5em;
-    text-align: center;
-}
-
-.summary {
-    font-size: 1.7em;
-    padding: 40px;
-    margin: 0px;
-}
-
-.square {
-    padding-top: 11%;
-    padding-bottom: .5%;
-}
-
-.cubes {
-    width: 100%;
-}
-
-img.promoOne {
-    width: 100%;
-    height: auto;
-}
-
-.promos {
-    position: relative;
-}
-
-.highlight {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-60%, -18%);
-    color: #fff;
-}
-
-.highlightSecond {
-    position: absolute;
-    top: 47%;
-    left: 55%;
-    transform: translate(-70%, -60%);
-    color: #fff;
-    font-size: 170%;
-}
-
-.flower {
-    width: 5%;
-    margin: 80px 0 20px;
-}
-
-#count {
-    width: 100%;
-    opacity: .8;
-    background-image: url("images/gianni-scognamiglio-7554-unsplash.png");
-}
-
-p.aboutPromo,
-p.announce {
-    text-align: center;
-    padding-top: 30px;
-}
-
-.aboutHighlight {
-    position: absolute;
-    width: 100%;
-    color: #fff;
-    font-size: 170%;
-    padding-bottom: 10px;
-}
-
-.announce {
-    font-size: 4em;
-    line-height: .1em;
-    margin: 50px auto 0;
-    padding: 0;
-}
-
-img.bar {
-    border-bottom: solid #D46A6A 55px;
-}
-
-.subIcon {
-    width: 30%;
-}
-
-.about {
-    margin: 0 auto;
-}
+    
+    body,
+    .navbar-fixed-top {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    
+    h1 {
+        font-family: 'Kristi', cursive;
+        font-size: 3em;
+        float: left;
+    }
+    
+    body {
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    #logo {
+        width: 7em;
+        height: auto;
+        float: left;
+        margin: 20px 0px 0px 10px;
+    }
+    
+    #navImg {
+        display: none;
+    }
+    
+    .banner {
+        max-width: 100%;
+    }
+    
+    nav {
+        float: right;
+        margin-top: 2%;
+    }
+    
+    nav li {
+        display: inline;
+    }
+    
+    .nav>li>a {
+        width: 100%;
+        color: #fff;
+    }
+    
+    .navbar-inverse {
+        clear: both;
+    }
+    
+    button {
+        color: #D46A6A;
+    }
+    
+    header nav {
+        float: right;
+        margin-top: 2%;
+    }
+    
+    .nav {
+        padding-right: 2%;
+        float: right;
+    }
+    
+    .navbar li a {
+        color: #000;
+        font-size: 120%;
+        text-decoration: none;
+        padding: 30px 50px;
+        text-transform: uppercase;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+    
+    nav li:hover {
+        color: #000;
+    }
+    
+    .navbar {
+        border-radius: 0;
+        background-color: #fff;
+    }
+    
+    button {
+        color: #fff;
+    }
+    
+    button.menuSelect a {
+        font-size: 300%;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-right: 0;
+    }
+    
+    button.menuSelect,
+    #menuTitle {
+        background: none;
+        color: #fff;
+        text-decoration: none;
+        float: right;
+        border-style: none;
+    }
+    
+    ul li {
+        float: right;
+    }
+    
+    .container {
+        width: 100%;
+    }
+    
+    .highlight {
+        font-family: 'Open Sans Condensed', sans-serif !important;
+        position: absolute;
+        width: 1140px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-60%, -30%);
+        font-size: 2.4em;
+        color: #fff;
+    }
+    
+    h1#mainText {
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    
+    .master {
+        font-size: 5em;
+        text-align: center;
+    }
+    
+    .summary {
+        font-size: 1.5em;
+        padding: 40px;
+        margin: 0px;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    
+    .square {
+        padding-top: 11%;
+        padding-bottom: .5%;
+    }
+    
+    .cubes {
+        width: 100%;
+    }
+    
+    img.promoOne {
+        width: 100%;
+        height: auto;
+    }
+    
+    .promos {
+        position: relative;
+    }
+    
+    .highlight {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-60%, -18%);
+        color: #fff;
+    }
+    
+    .highlightSecond {
+        position: absolute;
+        top: 47%;
+        left: 55%;
+        transform: translate(-70%, -60%);
+        color: #fff;
+        font-size: 170%;
+    }
+    
+    .flower {
+        width: 5%;
+        margin: 80px 0 20px;
+    }
+    
+    #count {
+        width: 100%;
+        opacity: .8;
+        background-image: url("images/gianni-scognamiglio-7554-unsplash.png");
+    }
+    
+    p.aboutPromo,
+    p.announce {
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .aboutHighlight {
+        position: absolute;
+        width: 100%;
+        color: #fff;
+        font-size: 170%;
+        padding-bottom: 10px;
+    }
+    
+    .announce {
+        font-size: 4em;
+        line-height: .1em;
+        margin: 50px auto 0;
+        padding: 0;
+    }
+    
+    img.bar {
+        border-bottom: solid #D46A6A 55px;
+    }
+    
+    .subIcon {
+        width: 30%;
+    }
+    
+    .about {
+        margin: 40px auto;
+    }
+    
+    .aboutText {
+        margin: 0 auto;
+        width: 60%;
+        font-size: 1.5em;
+        border-bottom: 5px double solid #D46a6a;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    
+    .kathy {
+        font-family: 'Shadows Into Light', cursive;
+        color: #D46a6a;
+        float: right;
+    }
+    
+    .projects {
+        background-color: #D46a6a;
+        color: #fff;
+    }
