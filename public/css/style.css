@@ -154,7 +154,8 @@ font-family: 'Open Sans Condensed', sans-serif;
         width: 100%;
     }
     
-    img.promoOne {
+    img.promoOne,
+    img.work {
         width: 100%;
         height: auto;
     }
@@ -241,4 +242,8 @@ font-family: 'Open Sans Condensed', sans-serif;
     .projects {
         background-color: #D46a6a;
         color: #fff;
+    }
+    
+    img.work {
+        width: 100%;
     }
