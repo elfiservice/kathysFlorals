@@ -143,6 +143,7 @@ font-family: 'Open Sans Condensed', sans-serif;
         padding: 40px;
         margin: 0px;
         font-family: 'Open Sans Condensed', sans-serif;
+        margin-bottom: 58px;
     }
     
     .square {
@@ -222,7 +223,7 @@ font-family: 'Open Sans Condensed', sans-serif;
     }
     
     .about {
-        margin: 40px auto;
+        margin: 40px auto 0px;
     }
     
     .aboutText {
@@ -242,8 +243,41 @@ font-family: 'Open Sans Condensed', sans-serif;
     .projects {
         background-color: #D46a6a;
         color: #fff;
+        margin: 0;
     }
     
-    img.work {
+    .portfolio {
+        padding: 0;
+    }
+    
+    .workbook {
+        list-style: none;
         width: 100%;
+    }
+    
+    .workbook li {
+        display: block;
+        float: left;
+        width: 20%;
+    }
+    
+    .work {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #000;
+    }
+    
+    .work img {
+        opacity: 0.7;
+        width: 100%;
+        height: auto;
+        transform: scale(1.2);
+        transition: transform 2s, opacity 0.5s;
+    }
+    
+    .work img:hover {
+        opacity: 1;
+        transform: scale(1.05);
     }
