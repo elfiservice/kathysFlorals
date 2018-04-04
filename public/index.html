@@ -246,16 +246,13 @@
             </ul>
 
         </div>
-        <div class="col-md-12">
-            <form action="" id="callme">
-
-            </form>
-        </div>
 
     </div>
     <div class="container">
         <div class="main">
-            <form action="mailto: megmalia@icloud.com" method="post" name="form_name" id="form_id" class="form_class" enctype="text/plain">
+            <form action="mailto:megmalia@icloud.com" method="post" name="form_name" id="form_id" class="form_class" enctype="text/plain">
+
+
                 <h2 class="master">Contact Me</h2>
                 <p class="summary contactMe">If you would like to contact me, please fill in the form below and I will respond to you as soon as possible.
                     <br/>If you are interested in participating in floral workshops, please don't forget to check off the box to receive an alert when we have an upcoming class. </p>
@@ -275,8 +272,7 @@
                 </div>
                 <div class="form-group">
 
-                    <label for="occasion"> Occasion </label>
-                    <p>What occasion are we celebrating?</p>
+                    <label for="occasion"> Occasion We Are Celebrating: </label><br />
                     <select custom-select mr-sm-2 id="occasion">
                         <option selected>Choose...</option>
                         <option> Wedding </option>
@@ -293,13 +289,14 @@
                 </div>
                 <div class="form-check mb-2">
                     <input class="form-check-input" type="checkbox" id="autoSizingCheck">
-                    <label class="form-check-label" for="autoSizingCheck">I would like to receive email alerts of when we are hosting special workshops.</label>
+                    <label class="form-check-label" for="autoSizingCheck" id="addOn">I would like to receive email alerts of when we are hosting special workshops.</label>
 
                 </div>
                 <br />
-                <label>Comments:</label>
-                <br/>
-                <input type="text" name="comment" id="comment" placeholder="Comments or questions" />
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Questions or Comments </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
 
                 <input type="button" name="submit" id="btn_name" value="send" onclick="submit_by_name() " />
         </div>
@@ -307,6 +304,7 @@
     </div>
     </div>
     </div>
+
     <script>
         function submit_by_name() {
             var firstName = document.getElementById("firstName").value;
