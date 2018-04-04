@@ -316,7 +316,7 @@ font-family: 'Open Sans Condensed', sans-serif;
             padding-top: 100px;
             left: 0;
             top: 0;
-            width: 60%;
+            width: 100%;
             height: 100%;
             overflow: auto;
             /*enable scroll if needed*/
@@ -347,32 +347,47 @@ font-family: 'Open Sans Condensed', sans-serif;
         
         .modal-content,
         #caption {
-            animation-name: zoom-out;
+            animation-name: zoom;
             animation-duration: 0.6s;
+        }
+        
+        @keyframes zoom {
+            from {
+                transform: scale(0)
+            }
+            to {
+                transform: scale(1)
+            }
         }
         /*close button*/
         
         .close {
             background: #606061;
-            color: #FFFFFF;
-            line-height: 25px;
+            color: #fff;
+            line-height: px;
             position: absolute;
-            right: -12px;
+            /* bottom: 5%; */
+            right: 22%;
+            padding-bottom: 5px;
             text-align: center;
-            top: -10px;
-            width: 24px;
+            top: 20%;
+            font-size: 50px;
+            width: 50px;
             text-decoration: none;
             font-weight: bold;
-            -webkit-border-radius: 12px;
-            -moz-border-radius: 12px;
-            border-radius: 12px;
+            transition: 0.3s;
+            -webkit-border-radius: 5px;
+            /* -moz-border-radius: 12px; */
+            border-radius: 0px;
             -moz-box-shadow: 1px 1px 3px #000;
             -webkit-box-shadow: 1px 1px 3px #000;
             box-shadow: 1px 1px 3px #000;
         }
         
         .close:hover {
-            background: #00d9ff;
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
         }
         
         .main {
