@@ -494,14 +494,6 @@ textarea.form-control {
     animation-name: fadeInUp;
 }
 
-@-webkit-@keyframes fadeInUpBig {
-    {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 2000px, 0);
-        transform: translate3d(0, 2000px, 0);
-    }
-}
-
 @media only screen and (max-width: 700) {
     .modal-content {
         width: 100%;
