@@ -8,7 +8,6 @@
 
     <!-- <link href="css/font-awesome.min.css" rel="stylesheet"> -->
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
@@ -71,7 +70,7 @@
         </div>
 
 
-        <div class="row col-lg-6 feature1">
+        <div class="row col-lg-6">
             <h2 class="master">
                 <img src="images/purpleTulip.png" alt="Purple Tulip" class="flower ">
                 <br> MAKE YOUR DAY YOUR OWN</h2>
@@ -83,7 +82,7 @@
                 From the bride's bouquet to the florals that are laid across a wedding cake, we can provide you with all of your options. We provide customized bouquets and arrangements for all occasions.
             </div>
         </div>
-        <div class="row promos">
+        <div class="row promos js--wp-1">
             <div class="col-lg-3 photoRun">
                 <img src="images/annie-spratt-210740-unsplash.png " class="promoOne drawing" alt="flower petals ">
                 <span class="highlightSecond">Fresh Flowers</span>
@@ -196,37 +195,33 @@
             <ul class="workbook">
                 <li>
                     <figure class="work">
-                        <img src="images/project2/brandon-morgan-286196-unsplash.png" class="myImg" alt="test test test" data-toggle="modal" data-target="myModal" />
+                        <img src="images/project2/brandon-morgan-286196-unsplash.png" input type="image" class="myImg" alt="test test test" data-toggle="modal" data-target="#myModal" />
                         <div id="myModal" class="modal" role="dialog">
 
-                            <!-- close button -->
                             <div class="modal-dialog">
                                 <!-- close button -->
                                 <span class="close">&times;</span>
                                 <div class="modal-body">
-
-                                    <img class="modal-content" class="img01" />
-
+                                    <img class="modal-content" id="img01" />
                                 </div>
+                                <div class="caption"></div>
+
                                 <div class="modal-footer">
 
                                 </div>
                             </div>
-
                         </div>
-                        <span class="close">&times;</span>
 
-                        <!-- modal caption -->
-                        <div class="caption"></div>
+                        <span class="close" onclick="document.getElementbyClass('.myModal').style.display=none">&times;</span>
 
                     </figure>
                 </li>
 
                 <li>
                     <figure class="work">
-                        <img src="images/project2/kelly-sikkema-382042-unsplash.png" class="myImg" alt="test test test" data-toggle="modal" data-target="myModal1" />
+                        <img src="images/project2/kelly-sikkema-382042-unsplash.png" class="myImg" alt="test test test" data-toggle="modal" data-target="#myModal1" />
 
-                        <div id="myModal1" class="modal" role="dialog">
+                        <div id="myModal1" class="modal fade" role="dialog">
                             <!-- close button -->
                             <span class="close ">&times;</span>
                             <!-- modal image -->
