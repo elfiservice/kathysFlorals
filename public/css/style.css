@@ -326,15 +326,16 @@ ul {
     height: 100%;
     overflow: auto;
     /*enable scroll if needed*/
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.6);
+    /*background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.6);*/
     /*black with opacity*/
 }
 
 
 /*set the modal's content*/
 
-.modal-content {
+.modal-content,
+.modal-body {
     margin: auto;
     position: relative;
     width: 80%;
@@ -376,7 +377,7 @@ ul {
 /*close button*/
 
 .close {
-    background: #606061;
+    background: #D46A6A;
     color: #fff;
     line-height: px;
     position: absolute;
