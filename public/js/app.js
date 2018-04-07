@@ -14,6 +14,8 @@ worbookContainer.onclick = function(cb) {
     modal.style.display = "block";
     modalImg.src = cb.target.src;
     captionText.innerHTML = cb.target.alt;
+    let getElemteHeader = document.querySelector('.modal-header');
+    getElemteHeader.innerHTML = cb.target.title;
     
 }
 
